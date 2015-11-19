@@ -1,0 +1,126 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+
+body {  
+  font: normal 16px "Century Gothic", Arial, sans-serif;
+  color:white;
+  background-color: black;
+}
+
+.jumbotron {
+	background-color: black;
+}
+
+
+.col-type {
+	color:black;
+	padding:15px;
+	height:900px;
+}
+
+@media screen and (min-width:0px) { 
+	.col-main1 { padding-left:10px; padding-right:2px; }
+	.col-main2 { padding-left:2px; padding-right:10px; }
+}
+
+@media screen and (min-width:1170px) { 
+	.col-main1 { padding-left:10px; padding-right:10px; }
+	.col-main2 { padding-left:10px; padding-right:10px; }
+}
+
+
+
+@media screen and (min-width:0px) { #map { background-size:565px 100%;   background-position:65% center; }}
+@media screen and (min-width:1170px) { #map { background-position:center center; }}
+
+#map{
+	height: 900px;
+}
+
+.data-header-hidden {
+
+	transform: 			rotate(90deg); 
+	-ms-transform: 		rotate(90deg);
+	-webkit-transform: 	rotate(90deg);
+	transform-origin: 			40% 50%;
+	-ms-transform-origin: 		40% 50%;
+	-webkit-transform-origin: 	40% 50%;
+}
+
+.col-data {
+	background-color:white;
+}
+
+
+@media screen and (min-width:0px) {
+	.data-header-hidden {
+		margin-top:5px;
+		margin-bottom:5px;
+		font-size:40px;
+		margin-left:28px;
+		transform: rotate(90deg); 
+		transform-origin: 0px 0px; 
+		-ms-transform: rotate(90deg); 
+		-ms-transform-origin: 0px 0px; 
+		-webkit-transform: rotate(90deg);
+		-webkit-transform-origin: 0px 0px;
+	}
+	.data-header {
+		margin-top:0px;
+		margin-bottom:20px;
+		font-size:40px;
+	}
+	.data-content {
+		font-size:15px;
+	}
+	.data-hidden {
+		display:inline;
+	}
+	.data-complete {
+		display:none;
+	}
+}
+
+
+@media screen and (min-width:750px) { 
+	.data-header-hidden {
+		font-size:50px;
+		margin-left:60px;
+	}
+}
+
+
+
+@media screen and (min-width:1170px) {
+	.data-header {
+		margin-top:0px;
+		margin-bottom:20px;
+		font-size:40px;
+	}
+	.data-content {
+		font-size:22px;
+	}
+
+	.data-hidden {
+		display:none !important;
+	}
+	.data-complete {
+		display:inline !important;
+	}
+}
+
+.data-header {
+	text-transform: uppercase;
+}
+.data-header-hidden{
+	text-transform: uppercase;
+}
+
+#transportationClass svg {
+	margin-top:-20px !important;
+}
+
+.povertyClass {
+	height:100px;
+}

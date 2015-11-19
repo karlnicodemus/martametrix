@@ -1,0 +1,1222 @@
+var data = [{  
+   "type":"FeatureCollection",
+   "features":[  
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"West Lake",
+            "LINE":"Blue",
+            "ADDRESS":"80 Anderson Avenue SW\rAtlanta, GA 30314",
+            "DRIVE ALONE":"59.2",
+            "CARPOOL":"10.7",
+            "BUS":"20.4",
+            "MARTA":"39.8",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"19.6",
+            "title":"West Lake",
+            "description":"80 Anderson Avenue SW\rAtlanta, GA 30314",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.44658,
+               33.75314
+            ],
+            "type":"Point"
+         },
+         "id":"138c2634312da27b63a3fbc68538f738"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Garnett",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"225 Peachtree Street SW\rAtlanta, GA 30303",
+            "DRIVE ALONE":"60.9",
+            "CARPOOL":"15",
+            "BUS":"2",
+            "MARTA":"12.3",
+            "BIKE":"6.4",
+            "WALK":"5.5",
+            "%BELOWPOVERTY":"49.1",
+            "title":"Garnett",
+            "description":"225 Peachtree Street SW\rAtlanta, GA 30303",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.396415,
+               33.747845
+            ],
+            "type":"Point"
+         },
+         "id":"15b9b8b3150e4c45397f9fa9afe6d1fc"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Lenox",
+            "LINE":"Yellow",
+            "ADDRESS":"955 East Paces Ferry Road NE\rAtlanta, GA 30326",
+            "DRIVE ALONE":"80.9",
+            "CARPOOL":"1.3",
+            "BUS":"2.8",
+            "MARTA":"8.2",
+            "BIKE":"0",
+            "WALK":"2.4",
+            "%BELOWPOVERTY":"6.9",
+            "title":"Lenox",
+            "description":"955 East Paces Ferry Road NE\rAtlanta, GA 30326",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.35631,
+               33.847144
+            ],
+            "type":"Point"
+         },
+         "id":"1e4a0a7813a84be15954d042c9dd0cf7"
+      },  
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"North Springs",
+            "LINE":"Red",
+            "ADDRESS":"7010 Peachtree Dunwoody Road, Sandy Springs, GA 30328",
+            "DRIVE ALONE":"72.8",
+            "CARPOOL":"7.8",
+            "BUS":"2.8",
+            "MARTA":"21.6",
+            "BIKE":"0",
+            "WALK":"1.4",
+            "%BELOWPOVERTY":"8.5",
+            "title":"North Springs",
+            "description":"7010 Peachtree Dunwoody Road, Sandy Springs, GA 30328",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.356206,
+               33.944552
+            ],
+            "type":"Point"
+         },
+         "id":"22125be0466f742a81f3989b32b6985d"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Doraville",
+            "LINE":"Yellow",
+            "ADDRESS":"6000 New Peachtree Road, Doraville, GA 30340",
+            "DRIVE ALONE":"33",
+            "CARPOOL":"28.1",
+            "BUS":"22.6",
+            "MARTA":"23.6",
+            "BIKE":"1.7",
+            "WALK":"13.7",
+            "%BELOWPOVERTY":"22.9",
+            "title":"Doraville",
+            "description":"6000 New Peachtree Road, Doraville, GA 30340",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.280389,
+               33.902079
+            ],
+            "type":"Point"
+         },
+         "id":"2f50bc5db4021581f5f331f192999f34"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"East Point",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"2848 East Main Street\rEast Point, GA 30344",
+            "DRIVE ALONE":"77.6",
+            "CARPOOL":"7.9",
+            "BUS":"9.1",
+            "MARTA":"9.1",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"34.6",
+            "title":"East Point",
+            "description":"2848 East Main Street\rEast Point, GA 30344",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.440344,
+               33.677814
+            ],
+            "type":"Point"
+         },
+         "id":"3155bbd230c044889b0562c8a3d76aa5"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Kensington",
+            "LINE":"Blue",
+            "ADDRESS":"3350 Kensington Road\rDecatur, GA 30032",
+            "DRIVE ALONE":"58.9",
+            "CARPOOL":"7.8",
+            "BUS":"19.1",
+            "MARTA":"37.2",
+            "BIKE":"0",
+            "WALK":"0.4",
+            "%BELOWPOVERTY":"23.8",
+            "title":"Kensington",
+            "description":"3350 Kensington Road\rDecatur, GA 30032",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.251937,
+               33.772664
+            ],
+            "type":"Point"
+         },
+         "id":"34be2e4f8f38c672a25eafa10d197e4d"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Five Points",
+            "LINE":"Red/Yellow/Blue/Green",
+            "ADDRESS":"20 Broad St SW\rAtlanta, GA 30303",
+            "DRIVE ALONE":"50.2",
+            "CARPOOL":"0",
+            "BUS":"1.2",
+            "MARTA":"13.6",
+            "BIKE":"0",
+            "WALK":"38.9",
+            "%BELOWPOVERTY":"27.4",
+            "title":"Five Points",
+            "description":"20 Broad St SW\rAtlanta, GA 30303",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.391571,
+               33.753826
+            ],
+            "type":"Point"
+         },
+         "id":"3560a440612f4ecf28726bf72a03067d"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Dunwoody",
+            "LINE":"Red",
+            "ADDRESS":"1111 Hammond Drive, Dunwoody, GA 30328",
+            "DRIVE ALONE":"79.1",
+            "CARPOOL":"6.7",
+            "BUS":"0.7",
+            "MARTA":"9.6",
+            "BIKE":"1",
+            "WALK":"4.1",
+            "%BELOWPOVERTY":"7.1",
+            "title":"Dunwoody",
+            "description":"1111 Hammond Drive, Dunwoody, GA 30328",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.3444,
+               33.9212
+            ],
+            "type":"Point"
+         },
+         "id":"38f477f2ee77e351ea98ba49d43b1f78"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Civic Center",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"435 West Peachtree Street NW\rAtlanta, GA 30308",
+            "DRIVE ALONE":"40",
+            "CARPOOL":"3.3",
+            "BUS":"3.9",
+            "MARTA":"3.9",
+            "BIKE":"0",
+            "WALK":"45.4",
+            "%BELOWPOVERTY":"36.1",
+            "title":"Civic Center",
+            "description":"435 West Peachtree Street NW\rAtlanta, GA 30308",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.387209,
+               33.766305
+            ],
+            "type":"Point"
+         },
+         "id":"47e51bec9b16dadd16f3819e143b2525"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Oakland City",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"1400 Lee Street SW\rAtlanta, GA 30310",
+            "DRIVE ALONE":"78.9",
+            "CARPOOL":"5.6",
+            "BUS":"1.1",
+            "MARTA":"1.1",
+            "BIKE":"3.9",
+            "WALK":"0",
+            "%BELOWPOVERTY":"29.2",
+            "title":"Oakland City",
+            "description":"1400 Lee Street SW\rAtlanta, GA 30310",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.4252,
+               33.716848
+            ],
+            "type":"Point"
+         },
+         "id":"531d5d586733a4ac7bda19b7e9a05acd"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Indian Creek",
+            "LINE":"Blue",
+            "ADDRESS":"3901 Durham Park Road\rStone Mountain, GA 30083",
+            "DRIVE ALONE":"63.7",
+            "CARPOOL":"10",
+            "BUS":"8.8",
+            "MARTA":"15.3",
+            "BIKE":"4",
+            "WALK":"6.3",
+            "%BELOWPOVERTY":"12.2",
+            "title":"Indian Creek",
+            "description":"3901 Durham Park Road\rStone Mountain, GA 30083",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.229656,
+               33.769794
+            ],
+            "type":"Point"
+         },
+         "id":"5dee6aafe782d471afff585d0aee72ab"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Lindbergh Center",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"2424 Piedmont Road\rLindbergh/Morosgo neighborhood\rAtlanta, GA 30324",
+            "DRIVE ALONE":"75.7",
+            "CARPOOL":"2.3",
+            "BUS":"2.3",
+            "MARTA":"20.1",
+            "BIKE":"0",
+            "WALK":"2.3",
+            "%BELOWPOVERTY":"8.8",
+            "title":"Lindbergh Center",
+            "description":"2424 Piedmont Road\rLindbergh/Morosgo neighborhood\rAtlanta, GA 30324",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.367447,
+               33.821995
+            ],
+            "type":"Point"
+         },
+         "id":"5e62853b4f8eab5e4b209e608abb324b"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Vine City",
+            "LINE":"Blue/Green",
+            "ADDRESS":"502 Rhodes Street NW\rAtlanta, GA 30314",
+            "DRIVE ALONE":"46.9",
+            "CARPOOL":"13.7",
+            "BUS":"20.3",
+            "MARTA":"48.9",
+            "BIKE":"0",
+            "WALK":"4.6",
+            "%BELOWPOVERTY":"32.9",
+            "title":"Vine City",
+            "description":"502 Rhodes Street NW\rAtlanta, GA 30314",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.40391,
+               33.75687
+            ],
+            "type":"Point"
+         },
+         "id":"6445e9b8118a2a0099c6072af1372a37"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Peachtree Center",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"216 Peachtree Street NE\rAtlanta, GA 30303",
+            "DRIVE ALONE":"50.2",
+            "CARPOOL":"0",
+            "BUS":"1.2",
+            "MARTA":"13.6",
+            "BIKE":"0",
+            "WALK":"38.9",
+            "%BELOWPOVERTY":"27.4",
+            "title":"Peachtree Center",
+            "description":"216 Peachtree Street NE\rAtlanta, GA 30303",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.387548,
+               33.759677
+            ],
+            "type":"Point"
+         },
+         "id":"74f9ba4f25a8ad6ee7397207dd2b83b6"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Brookhaven/Oglethorpe",
+            "LINE":"Yellow",
+            "ADDRESS":"4047 Peachtree Road NE\rBrookhaven,GA 30319",
+            "DRIVE ALONE":"60.4",
+            "CARPOOL":"4.2",
+            "BUS":"0",
+            "MARTA":"15.6",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"9.2",
+            "title":"Brookhaven/Oglethorpe",
+            "description":"4047 Peachtree Road NE\rBrookhaven,GA 30319",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.340003,
+               33.860705
+            ],
+            "type":"Point"
+         },
+         "id":"7c38cbc093a89e700c0fc66b55f9f136"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Medical Center",
+            "LINE":"Red",
+            "ADDRESS":"5711 Peachtree-Dunwoody Road\rSandy Springs, GA 30342",
+            "DRIVE ALONE":"81.7",
+            "CARPOOL":"1.3",
+            "BUS":"0.6",
+            "MARTA":"4.5",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"6.1",
+            "title":"Medical Center",
+            "description":"5711 Peachtree-Dunwoody Road\rSandy Springs, GA 30342",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.352684,
+               33.910689
+            ],
+            "type":"Point"
+         },
+         "id":"7e627afd8ae67ce904afdcae0b579665"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Georgia State",
+            "LINE":"Blue/Green",
+            "ADDRESS":"170 Piedmont Avenue SE\rAtlanta, GA 30303",
+            "DRIVE ALONE":"62.9",
+            "CARPOOL":"0",
+            "BUS":"0",
+            "MARTA":"0",
+            "BIKE":"0",
+            "WALK":"37.1",
+            "%BELOWPOVERTY":"27.4",
+            "title":"Georgia State",
+            "description":"170 Piedmont Avenue SE\rAtlanta, GA 30303",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.386464,
+               33.750539
+            ],
+            "type":"Point"
+         },
+         "id":"7efa4c0cb8907a70556685b2f26b7a26"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Ashby",
+            "LINE":"Blue/Green",
+            "ADDRESS":"65 Joseph E. Lowery Boulevard NW\rAtlanta, GA 30314",
+            "DRIVE ALONE":"59.3",
+            "CARPOOL":"22.8",
+            "BUS":"11.2",
+            "MARTA":"24.6",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"40.7",
+            "title":"Ashby",
+            "description":"65 Joseph E. Lowery Boulevard NW\rAtlanta, GA 30314",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.417556,
+               33.756346
+            ],
+            "type":"Point"
+         },
+         "id":"89fd95681723d8d83dd295e1d52f5dea"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Bankhead",
+            "LINE":"Green",
+            "ADDRESS":"1335 Donald Lee Hollowell Parkway NW\rAtlanta, GA 30311",
+            "DRIVE ALONE":"43.2",
+            "CARPOOL":"13.7",
+            "BUS":"27.9",
+            "MARTA":"39.3",
+            "BIKE":"0",
+            "WALK":"9.6",
+            "%BELOWPOVERTY":"25.2",
+            "title":"Bankhead",
+            "description":"1335 Donald Lee Hollowell Parkway NW\rAtlanta, GA 30311",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.42884,
+               33.77189
+            ],
+            "type":"Point"
+         },
+         "id":"8ce78b096bfa2e9acc9bb3c254958d3f"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Decatur",
+            "LINE":"Blue",
+            "ADDRESS":"400 Church Street\rDecatur, GA 30030",
+            "DRIVE ALONE":"75.6",
+            "CARPOOL":"17",
+            "BUS":"1.7",
+            "MARTA":"1.7",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"59.7",
+            "title":"Decatur",
+            "description":"400 Church Street\rDecatur, GA 30030",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.295588,
+               33.774717
+            ],
+            "type":"Point"
+         },
+         "id":"92fda1b69dc07df56b91657cd7bd8850"
+      },     
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Hamilton E. Holmes",
+            "LINE":"Blue",
+            "ADDRESS":"70 Hamilton E. Holmes Drive NW\rAtlanta, GA 30311",
+            "DRIVE ALONE":"56.7",
+            "CARPOOL":"20.9",
+            "BUS":"0",
+            "MARTA":"45",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"26",
+            "title":"Hamilton E. Holmes",
+            "description":"70 Hamilton E. Holmes Drive NW\rAtlanta, GA 30311",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.46794,
+               33.754638
+            ],
+            "type":"Point"
+         },
+         "id":"a89b141891171e76e6ade474c5b9ebe6"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Inman Park/Reynoldstown",
+            "LINE":"Blue/Green",
+            "ADDRESS":"1055 DeKalb Avenue NE\rAtlanta, GA 30307",
+            "DRIVE ALONE":"68.4",
+            "CARPOOL":"18.5",
+            "BUS":"9.7",
+            "MARTA":"9.7",
+            "BIKE":"1.6",
+            "WALK":"1.8",
+            "%BELOWPOVERTY":"20.8",
+            "title":"Inman Park/Reynoldstown",
+            "description":"1055 DeKalb Avenue NE\rAtlanta, GA 30307",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.352797,
+               33.757497
+            ],
+            "type":"Point"
+         },
+         "id":"ac31cec2a6ff0894d22395169d7a6bf6"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"West End",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"680 Lee Street SW\rAtlanta, GA 30310",
+            "DRIVE ALONE":"47.8",
+            "CARPOOL":"14.3",
+            "BUS":"10.5",
+            "MARTA":"35.8",
+            "BIKE":"0",
+            "WALK":"3.1",
+            "%BELOWPOVERTY":"35.9",
+            "title":"West End",
+            "description":"680 Lee Street SW\rAtlanta, GA 30310",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.41296,
+               33.73581
+            ],
+            "type":"Point"
+         },
+         "id":"b3a1061be690e6099133d0051bd3112e"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Arts Center",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"1255 West Peachtree Street\rAtlanta, GA 30309",
+            "DRIVE ALONE":"74.9",
+            "CARPOOL":"7.1",
+            "BUS":"1.8",
+            "MARTA":"7",
+            "BIKE":"0",
+            "WALK":"7.7",
+            "%BELOWPOVERTY":"6.2",
+            "title":"Arts Center",
+            "description":"1255 West Peachtree Street\rAtlanta, GA 30309",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.387789,
+               33.789705
+            ],
+            "type":"Point"
+         },
+         "id":"c596bf937de85dc60ed763d2ec9d365f"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Buckhead",
+            "LINE":"Red",
+            "ADDRESS":"3360 Peachtree Road NE\rAtlanta, GA 30326",
+            "DRIVE ALONE":"76.9",
+            "CARPOOL":"4.6",
+            "BUS":"0",
+            "MARTA":"2.8",
+            "BIKE":"0",
+            "WALK":"2.4",
+            "%BELOWPOVERTY":"2.8",
+            "title":"Buckhead",
+            "description":"3360 Peachtree Road NE\rAtlanta, GA 30326",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.367018,
+               33.84841
+            ],
+            "type":"Point"
+         },
+         "id":"c5c0fc403b02c1b8278fffcde9011510"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Midtown",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"41 Tenth Street NE\rAtlanta, GA 30309",
+            "DRIVE ALONE":"75.4",
+            "CARPOOL":"3.5",
+            "BUS":"0.8",
+            "MARTA":"7.3",
+            "BIKE":"0",
+            "WALK":"10.9",
+            "%BELOWPOVERTY":"8.9",
+            "title":"Midtown",
+            "description":"41 Tenth Street NE\rAtlanta, GA 30309",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.386345,
+               33.781121
+            ],
+            "type":"Point"
+         },
+         "id":"c6d1d91c07b4545ec1dd9f02372fb27e"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"East Lake",
+            "LINE":"Blue",
+            "ADDRESS":"2260 College Avenue\rAtlanta, GA 30307",
+            "DRIVE ALONE":"61.9",
+            "CARPOOL":"4.6",
+            "BUS":"7.8",
+            "MARTA":"14.4",
+            "BIKE":"8.6",
+            "WALK":"3",
+            "%BELOWPOVERTY":"17",
+            "title":"East Lake",
+            "description":"2260 College Avenue\rAtlanta, GA 30307",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.312665,
+               33.765166
+            ],
+            "type":"Point"
+         },
+         "id":"cba36b1e4b6bc0ebd9e0023fd45334a4"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Sandy Springs",
+            "LINE":"Red",
+            "ADDRESS":"1101 Mount Vernon Highway, Sandy Springs, GA 30338",
+            "DRIVE ALONE":"77.1",
+            "CARPOOL":"9.3",
+            "BUS":"0.3",
+            "MARTA":"8.9",
+            "BIKE":"0",
+            "WALK":"1.3",
+            "%BELOWPOVERTY":"13.3",
+            "title":"Sandy Springs",
+            "description":"1101 Mount Vernon Highway, Sandy Springs, GA 30338",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.352019,
+               33.933035
+            ],
+            "type":"Point"
+         },
+         "id":"cdd05d94abeccab18f5a56496af0d484"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Lakewood/ Ft. McPherson",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"2020 Lee Street SW\rAtlanta, GA 30310",
+            "DRIVE ALONE":"76.1",
+            "CARPOOL":"0",
+            "BUS":"0",
+            "MARTA":"0",
+            "BIKE":"0",
+            "WALK":"23.9",
+            "%BELOWPOVERTY":"28.4",
+            "title":"Lakewood/ Ft. McPherson",
+            "description":"2020 Lee Street SW\rAtlanta, GA 30310",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.428859,
+               33.700457
+            ],
+            "type":"Point"
+         },
+         "id":"ce0838172b121cbf0294eae456a9886d"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Airport",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"Hartsfield-Jackson Atlanta International Airport\rSouth Airport Terminal\rAtlanta, GA 30320",
+            "DRIVE ALONE":"0",
+            "CARPOOL":"0",
+            "BUS":"0",
+            "MARTA":"0",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"25.4",
+            "title":"Airport",
+            "description":"Hartsfield-Jackson Atlanta International Airport\rSouth Airport Terminal\rAtlanta, GA 30320",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.446341,
+               33.640758
+            ],
+            "type":"Point"
+         },
+         "id":"cef6d63835dda40e11a0cb69d76d0014"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Chamblee",
+            "LINE":"Yellow",
+            "ADDRESS":"5200 New Peachtree Road\rChamblee, GA 30341",
+            "DRIVE ALONE":"79.3",
+            "CARPOOL":"7.5",
+            "BUS":"0",
+            "MARTA":"0",
+            "BIKE":"0",
+            "WALK":"6.7",
+            "%BELOWPOVERTY":"38.8",
+            "title":"Chamblee",
+            "description":"5200 New Peachtree Road\rChamblee, GA 30341",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.306957,
+               33.886191
+            ],
+            "type":"Point"
+         },
+         "id":"d09f6a8167d5d25f3667ac8337d78ae0"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Dome/GWCC/Philips Arena/CNN Center",
+            "LINE":"Blue/Green",
+            "ADDRESS":"100 Techwood Drive NW\rAtlanta, GA 30303",
+            "DRIVE ALONE":"60.9",
+            "CARPOOL":"15",
+            "BUS":"2",
+            "MARTA":"12.3",
+            "BIKE":"6.4",
+            "WALK":"5.5",
+            "%BELOWPOVERTY":"49.1",
+            "title":"Dome/GWCC/Philips Arena/CNN Center",
+            "description":"100 Techwood Drive NW\rAtlanta, GA 30303",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.397759,
+               33.756293
+            ],
+            "type":"Point"
+         },
+         "id":"dde02f3cdda75ac040d643c270b9579e"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"College Park",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"3800 Main Street\rCollege Park, GA 30337",
+            "DRIVE ALONE":"89.5",
+            "CARPOOL":"10.5",
+            "BUS":"0",
+            "MARTA":"0",
+            "BIKE":"0",
+            "WALK":"0",
+            "%BELOWPOVERTY":"17.5",
+            "title":"College Park",
+            "description":"3800 Main Street\rCollege Park, GA 30337",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.448793,
+               33.651673
+            ],
+            "type":"Point"
+         },
+         "id":"e1a2d0825fbd5e71c95234eb23059fcc"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Avondale",
+            "LINE":"Blue",
+            "ADDRESS":"915 East Ponce de Leon Avenue\rDecatur, GA 30030",
+            "DRIVE ALONE":"61",
+            "CARPOOL":"18.8",
+            "BUS":"5.5",
+            "MARTA":"20.3",
+            "BIKE":"0",
+            "WALK":"1.5",
+            "%BELOWPOVERTY":"15.7",
+            "title":"Avondale",
+            "description":"915 East Ponce de Leon Avenue\rDecatur, GA 30030",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.281903,
+               33.775277
+            ],
+            "type":"Point"
+         },
+         "id":"e7f0e060537b4eddda0b130de5ff00b8"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"Edgewood/Candler Park",
+            "LINE":"Blue/Green",
+            "ADDRESS":"1475 DeKalb Avenue NE\rAtlanta, GA 30307",
+            "DRIVE ALONE":"74.3",
+            "CARPOOL":"4.3",
+            "BUS":"11.3",
+            "MARTA":"13.6",
+            "BIKE":"0.7",
+            "WALK":"0",
+            "%BELOWPOVERTY":"49.9",
+            "title":"Edgewood/Candler Park",
+            "description":"1475 DeKalb Avenue NE\rAtlanta, GA 30307",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.339579,
+               33.762001
+            ],
+            "type":"Point"
+         },
+         "id":"f31b4abaa3f9218d182a679105b537d3"
+      },
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"King Memorial",
+            "LINE":"Blue/Green",
+            "ADDRESS":"377 Decatur Street NE\rAtlanta, GA 30312",
+            "DRIVE ALONE":"60.9",
+            "CARPOOL":"15",
+            "BUS":"2",
+            "MARTA":"12.3",
+            "BIKE":"6.4",
+            "WALK":"5.5",
+            "%BELOWPOVERTY":"63.2",
+            "title":"King Memorial",
+            "description":"377 Decatur Street NE\rAtlanta, GA 30312",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.37544,
+               33.749959
+            ],
+            "type":"Point"
+         },
+         "id":"f630a9e0e4feb5e9e3c8f11c953ed0f8"
+      },     
+      {  
+         "type":"Feature",
+         "properties":{  
+            "MARTA STOP":"North Avenue",
+            "LINE":"Red/Yellow",
+            "ADDRESS":"713 West Peachtree Street NW\rAtlanta, GA 30308",
+            "DRIVE ALONE":"57.5",
+            "CARPOOL":"9.9",
+            "BUS":"0",
+            "MARTA":"11.7",
+            "BIKE":"1.3",
+            "WALK":"16.6",
+            "%BELOWPOVERTY":"41.7",
+            "title":"North Avenue",
+            "description":"713 West Peachtree Street NW\rAtlanta, GA 30308",
+            "icon": {
+            	"iconUrl": "dot.png",
+           		"iconSize": [15, 15],
+            	"iconAnchor": [7, 7],
+            	"popupAnchor": [0, -15],
+            	"className": "dot"
+        	}
+         },
+         "geometry":{  
+            "coordinates":[  
+               -84.386699,
+               33.771712
+            ],
+            "type":"Point"
+         },
+         "id":"fb023cd1365c0cef38d744b8355334b1"
+      },
+   ],
+   "id":"stacebug.cigttfd6e08yjueko0jdf33ix"
+}]

@@ -1,0 +1,39 @@
+MARTA STOP,LINE,ADDRESS,LAT,LOG,DRIVE ALONE,CARPOOL,BUS,MARTA,BIKE,WALK,%BELOWPOVERTY
+North Springs,Red,"7010 Peachtree Dunwoody Road, Sandy Springs, GA 30328",33.944552,-84.356206,72.8,7.8,2.8,21.6,0,1.4,8.5
+Sandy Springs,Red,"1101 Mount Vernon Highway, Sandy Springs, GA 30338",33.933035,-84.352019,77.1,9.3,0.3,8.9,0,1.3,13.3
+Dunwoody,Red,"1111 Hammond Drive, Dunwoody, GA 30328",33.9212,-84.3444,79.1,6.7,0.7,9.6,1,4.1,7.1
+Medical Center,Red,"5711 Peachtree-Dunwoody RoadSandy Springs, GA 30342",33.910689,-84.352684,81.7,1.3,0.6,4.5,0,0,6.1
+Buckhead,Red,"3360 Peachtree Road NEAtlanta, GA 30326",33.84841,-84.367018,76.9,4.6,0,2.8,0,2.4,2.8
+Lindbergh Center,Red/Yellow,"2424 Piedmont RoadLindbergh/Morosgo neighborhoodAtlanta, GA 30324",33.821995,-84.367447,75.7,2.3,2.3,20.1,0,2.3,8.8
+Arts Center,Red/Yellow,"1255 West Peachtree StreetAtlanta, GA 30309",33.789705,-84.387789,74.9,7.1,1.8,7,0,7.7,6.2
+Midtown,Red/Yellow,"41 Tenth Street NEAtlanta, GA 30309",33.781121,-84.386345,75.4,3.5,0.8,7.3,0,10.9,8.9
+North Avenue,Red/Yellow,"713 West Peachtree Street NWAtlanta, GA 30308",33.771712,-84.386699,57.5,9.9,0,11.7,1.3,16.6,41.7
+Civic Center,Red/Yellow,"435 West Peachtree Street NWAtlanta, GA 30308",33.766305,-84.387209,40,3.3,3.9,3.9,0,45.4,36.1
+Peachtree Center,Red/Yellow,"216 Peachtree Street NEAtlanta, GA 30303",33.759677,-84.387548,50.2,0,1.2,13.6,0,38.9,27.4
+Five Points,Red/Yellow/Blue/Green,"20 Broad St SWAtlanta, GA 30303",33.753826,-84.391571,50.2,0,1.2,13.6,0,38.9,27.4
+Garnett,Red/Yellow,"225 Peachtree Street SWAtlanta, GA 30303",33.747845,-84.396415,60.9,15,2,12.3,6.4,5.5,49.1
+West End,Red/Yellow,"680 Lee Street SWAtlanta, GA 30310",33.73581,-84.41296,47.8,14.3,10.5,35.8,0,3.1,35.9
+Oakland City,Red/Yellow,"1400 Lee Street SWAtlanta, GA 30310",33.716848,-84.4252,78.9,5.6,1.1,1.1,3.9,0,29.2
+Lakewood/ Ft. McPherson,Red/Yellow,"2020 Lee Street SWAtlanta, GA 30310",33.700457,-84.428859,76.1,0,0,0,0,23.9,28.4
+East Point,Red/Yellow,"2848 East Main StreetEast Point, GA 30344",33.677814,-84.440344,77.6,7.9,9.1,9.1,0,0,34.6
+College Park,Red/Yellow,"3800 Main StreetCollege Park, GA 30337",33.651673,-84.448793,89.5,10.5,0,0,0,0,17.5
+Airport,Red/Yellow,"Hartsfield-Jackson Atlanta International AirportSouth Airport TerminalAtlanta, GA 30320",33.640758,-84.446341,0,0,0,0,0,0,25.4
+Doraville,Yellow,"6000 New Peachtree Road, Doraville, GA 30340",33.902079,-84.280389,33,28.1,22.6,23.6,1.7,13.7,22.9
+Chamblee,Yellow,"5200 New Peachtree RoadChamblee, GA 30341",33.886191,-84.306957,79.3,7.5,0,0,0,6.7,38.8
+Brookhaven/Oglethorpe,Yellow,"4047 Peachtree Road NEBrookhaven,GA 30319",33.860705,-84.340003,60.4,4.2,0,15.6,0,0,9.2
+Lenox,Yellow,"955 East Paces Ferry Road NEAtlanta, GA 30326",33.847144,-84.35631,80.9,1.3,2.8,8.2,0,2.4,6.9
+Hamilton E. Holmes,Blue,"70 Hamilton E. Holmes Drive NWAtlanta, GA 30311",33.754638,-84.46794,56.7,20.9,0,45,0,0,26
+West Lake,Blue,"80 Anderson Avenue SWAtlanta, GA 30314",33.75314,-84.44658,59.2,10.7,20.4,39.8,0,0,19.6
+Bankhead,Green,"1335 Donald Lee Hollowell Parkway NWAtlanta, GA 30311",33.77189,-84.42884,43.2,13.7,27.9,39.3,0,9.6,25.2
+Ashby,Blue/Green,"65 Joseph E. Lowery Boulevard NWAtlanta, GA 30314",33.756346,-84.417556,59.3,22.8,11.2,24.6,0,0,40.7
+Vine City,Blue/Green,"502 Rhodes Street NWAtlanta, GA 30314",33.75687,-84.40391,46.9,13.7,20.3,48.9,0,4.6,32.9
+Dome/GWCC/Philips Arena/CNN Center,Blue/Green,"100 Techwood Drive NWAtlanta, GA 30303",33.756293,-84.397759,60.9,15,2,12.3,6.4,5.5,49.1
+Georgia State,Blue/Green,"170 Piedmont Avenue SEAtlanta, GA 30303",33.750539,-84.386464,62.9,0,0,0,0,37.1,27.4
+King Memorial,Blue/Green,"377 Decatur Street NEAtlanta, GA 30312",33.749959,-84.37544,60.9,15,2,12.3,6.4,5.5,63.2
+Inman Park/Reynoldstown,Blue/Green,"1055 DeKalb Avenue NEAtlanta, GA 30307",33.757497,-84.352797,68.4,18.5,9.7,9.7,1.6,1.8,20.8
+Edgewood/Candler Park,Blue/Green,"1475 DeKalb Avenue NEAtlanta, GA 30307",33.762001,-84.339579,74.3,4.3,11.3,13.6,0.7,0,49.9
+East Lake,Blue,"2260 College AvenueAtlanta, GA 30307",33.765166,-84.312665,61.9,4.6,7.8,14.4,8.6,3,17
+Decatur,Blue,"400 Church StreetDecatur, GA 30030",33.774717,-84.295588,75.6,17,1.7,1.7,0,0,59.7
+Avondale,Blue,"915 East Ponce de Leon AvenueDecatur, GA 30030",33.775277,-84.281903,61,18.8,5.5,20.3,0,1.5,15.7
+Kensington,Blue,"3350 Kensington RoadDecatur, GA 30032",33.772664,-84.251937,58.9,7.8,19.1,37.2,0,0.4,23.8
+Indian Creek,Blue,"3901 Durham Park RoadStone Mountain, GA 30083",33.769794,-84.229656,63.7,10,8.8,15.3,4,6.3,12.2

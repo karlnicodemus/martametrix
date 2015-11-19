@@ -1,0 +1,61 @@
+/* HEADER CSS */
+
+
+@media screen and (min-width:0px) {
+	.large {
+		font-size:31px;
+		margin-top:5px;
+	}
+	.logo {
+		display:none;
+		width:226px;
+	}
+	.logo2 {
+		display:none;
+		width:123px;
+	}
+	.col-logo {
+		padding:0px;
+	}
+}
+
+@media screen and (min-width:385px) {
+	.large { font-size: 40px;}
+}
+
+@media screen and (min-width:550px) {
+	.large {
+		font-size:50px;
+		margin-top:20px;
+	}
+	.logo2 {
+		display:inline;
+		margin-top:28px;
+	}
+	.col-logo {
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.large {
+		font-size:50px;
+	}
+	.logo {
+		margin-top:20px;
+		display:inline;
+	}
+	.logo2 {
+		display:none;
+	}
+}
+
+@media screen and (min-width:1170px) {
+	.logo {
+		margin-top:12px;
+	}
+	.col-logo {
+		padding-left:50px;
+	}
+}
