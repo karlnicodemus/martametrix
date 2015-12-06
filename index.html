@@ -22,68 +22,103 @@
 </head>
 <body>
 <div class="container">
-	<!-- Header -->
-	<div class="row">
-  		<div class="col-xs-10 col-sm-9">
-  			<h1 class="large"><b>ATLANTA</b>GEORGIA </h1>
-  		</div>
-  		<div class="col-xs-2 col-sm-3 col-logo">
-  			<img src="./files/logo.png" class="img-responsive logo"/><img src="./files/logo2.png" class="img-responsive logo2"/>
-  		</div>
-	</div>
-	<!--Content-->
-	<div class="row">
-		<div id="map" class="col-lg-6 col-md-9 col-xs-10 col-main1">
-				<!--<div id="map"> </div>-->
-				<script type="text/javascript">
+    <!-- Header -->
+    <div class="row">
+        <div class="col-xs-10 col-sm-9">
+            <h1 class="large"><b>ATLANTA</b>GEORGIA </h1>
+        </div>
+        <div class="col-xs-2 col-sm-3 col-logo">
+            <img src="./files/logo.png" class="img-responsive logo"/><img src="./files/logo2.png" class="img-responsive logo2"/>
+        </div>
+    </div>
+    <!--Content-->
+    <div class="row">
+        <div id="map" class="col-lg-6 col-md-9 col-xs-10 col-main1">
+                <!--<div id="map"> </div>-->
+                <script type="text/javascript">
                     
                     
                     
-					L.mapbox.accessToken = 'pk.eyJ1Ijoic3RhY2VidWciLCJhIjoiY2lndHRmZWQyMDhzdHYxa28yeDk0b2kydCJ9.66UKWBa3jEwcoJ4BAEUuVQ';
-					var southWest = L.latLng(33.583602, -84.504154),
-    					northEast = L.latLng(33.959462, -84.198486),
-    					bounds = L.latLngBounds(southWest, northEast);
-					var map = L.mapbox.map('map', 'mapbox.streets',{maxBounds:bounds, maxZoom:13, minZoom:11}).setView([33.748465061732354, -84.39079284667969],11)
-					var tileLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-   						attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    					id: 'stacebug.cigttfd6e08yjueko0jdf33ix', 
-    					accessToken: 'pk.eyJ1Ijoic3RhY2VidWciLCJhIjoiY2lndHRmZWQyMDhzdHYxa28yeDk0b2kydCJ9.66UKWBa3jEwcoJ4BAEUuVQ'
-					}).addTo(map);
+                    L.mapbox.accessToken = 'pk.eyJ1Ijoic3RhY2VidWciLCJhIjoiY2lndHRmZWQyMDhzdHYxa28yeDk0b2kydCJ9.66UKWBa3jEwcoJ4BAEUuVQ';
+                    var southWest = L.latLng(33.583602, -84.504154),
+                        northEast = L.latLng(33.959462, -84.198486),
+                        bounds = L.latLngBounds(southWest, northEast);
+                    var map = L.mapbox.map('map', 'mapbox.streets',{maxBounds:bounds, maxZoom:13, minZoom:11}).setView([33.748465061732354, -84.39079284667969],11)
+                    var tileLayer = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+                        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                        id: 'stacebug.cigttfd6e08yjueko0jdf33ix', 
+                        accessToken: 'pk.eyJ1Ijoic3RhY2VidWciLCJhIjoiY2lndHRmZWQyMDhzdHYxa28yeDk0b2kydCJ9.66UKWBa3jEwcoJ4BAEUuVQ'
+                    }).addTo(map);
                     
                     
                     
-					var myLayer = L.mapbox.featureLayer(paths).addTo(map);
-		
-					var iconLayer = L.mapbox.featureLayer().addTo(map);
-					iconLayer.on('layeradd', function(e) {
-						var icons = e.layer;
-						var feature = icons.feature;
-						icons.setIcon(L.icon(feature.properties.icon));
-					})
+                    var myLayer = L.mapbox.featureLayer(paths).addTo(map);
+        
+                    var iconLayer = L.mapbox.featureLayer().addTo(map);
+                    iconLayer.on('layeradd', function(e) {
+                        var icons = e.layer;
+                        var feature = icons.feature;
+                        icons.setIcon(L.icon(feature.properties.icon));
+                    })
 
-					iconLayer.setGeoJSON(data);
+                    iconLayer.setGeoJSON(data);
 
 //Below is trying  to change the text on click
+                    var data_size;
+                    var saveArray = [];
+                    var oldName;
+                    var pieSaveArray = [];
+                    var dummyObj = {
+                            data: 0
+                        };
+                        
+                        for(var i = 0; i < 6; i++) {
+                            saveArray[i] = dummyObj;    
+                        }
                     
-                
-					iconLayer.on('click', function(e) {
+                    
+                    var piedata = [
+                      { label: 'Abulia', count: 10 }, 
+                      { label: 'Betelgeuse', count: 100 }];
+                    
+                    var clickCount = 1;
+                    iconLayer.on('click', function(e) {
                         
+                        dataset = [];
+                        pieDataSet = [];
                         
-
                         $('#transportationClass').empty();
                         $('#transportationClass').append('<b class="data-content"> <p style="height:20px">TRANSPORTATION</p></b>');
-
                         
-                        var dataset = [];
-						clickedName = e.layer.feature.properties["MARTA STOP"];
-						clickedPoverty = e.layer.feature.properties["%BELOWPOVERTY"];
-						changeText();
+                        $('.crimeClass').empty();
+                        $('.crimeClass').append('<b class="data-content"> <p style="height:20px">CRIME</p></b>');
+
+                        if (clickCount > 1) {
+                            clickedName = currentName;
+                            clickedName2 = e.layer.feature.properties["MARTA STOP"];
+                            currentName = clickedName2;
+
+                            clickedPoverty = currentPoverty;
+                            clickedPoverty2 = e.layer.feature.properties["%BELOWPOVERTY"];
+                            currentPoverty = clickedPoverty2;
+                        } else if (clickCount == 0 || clickCount == 1) {
+                            clickedName = e.layer.feature.properties["MARTA STOP"];
+                            clickedName2 = "";
+                            currentName = clickedName;
+
+                            clickedPoverty = e.layer.feature.properties["%BELOWPOVERTY"];
+                            clickedPoverty2 = "";
+                            currentPoverty = clickedPoverty;
+                        }
+                        
+                        changeText();
                         var values = [e.layer.feature.properties["MARTA STOP"], 
                                  e.layer.feature.properties["DRIVE ALONE"],                                                                                            e.layer.feature.properties["CARPOOL"],     
                                  e.layer.feature.properties["BUS"],  
                                  e.layer.feature.properties["MARTA"], 
                                  e.layer.feature.properties["BIKE"], 
-                                 e.layer.feature.properties["WALK"]];
+                                 e.layer.feature.properties["WALK"],
+                                 e.layer.feature.properties["crimeIndex"]];
                                 //console.log(values);
                                 arr = values.slice();
                                 //console.log(arr);
@@ -96,46 +131,69 @@
                                     bus: parseFloat(values[3]),
                                     marta: parseFloat(values[4]),
                                     bike: parseFloat(values[5]),
-                                    walk: parseFloat(values[6])
+                                    walk: parseFloat(values[6]),
+                                    crimeIndex: parseFloat(values[7])
                                 };
                         
-                                console.log(result);
+                                //console.log(result);
                         
                                 var DRIVEALONE = {
                                     text: "Drive Alone",
-                                    data: result.driveAlone
+                                    data: result.driveAlone,
+                                    oldData: saveArray[0].data
                                     }
                                     var CARPOOL = {
                                     text: "Carpool",
-                                    data: result.carpool
+                                    data: result.carpool,
+                                    oldData: saveArray[1].data
                                     }
                                     var BUS = {
                                     text: "Bus",
-                                    data: result.bus
+                                    data: result.bus,
+                                    oldData: saveArray[2].data
                                     }
                                     var MARTA = {
                                     text: "Marta",
-                                    data: result.marta
+                                    data: result.marta,
+                                    oldData: saveArray[3].data
                                     }
                                     var BIKE = {
                                     text: "Bike",
-                                    data: result.bike
+                                    data: result.bike,
+                                    oldData: saveArray[4].data
                                     }
                                     var WALK = {
                                     text: "Walk",
-                                    data: result.walk
+                                    data: result.walk,
+                                    oldData: saveArray[5].data
                                     }
-    
+                                    var CRIME = {
+                                    data: result.crimeIndex,
+                                    }
+                                    var HUNDRED = {
+                                    data: 100
+                                    }
+                                    
+                                //console.log(saveArray);
                                 dataset.push(DRIVEALONE, CARPOOL, BUS, MARTA, BIKE, WALK);
+                                pieDataSet.push(CRIME, HUNDRED);
+                                console.log(pieDataSet);
+                                //console.log(dataset);
                                 
-                                console.log(dataset);
+
                         
                                  var margin = {top: 50, right: 50, left: 50, bottom:50};
 
         var width = 500 - margin.right - margin.left,
             height = 300 - margin.top - margin.bottom;
 
-
+//        var tooltip = d3.select('body').append('div')
+//        .style('position', 'absolute')
+//        .style('padding', '0 10px')
+//        .style('background', 'black')
+//        .style('opacity', 0)
+        
+        
         var xScale = d3.scale.linear()
             .domain([0, d3.max(dataset)])
             .range([0, width]);
@@ -149,25 +207,201 @@
             .attr('width', width + margin.left + margin.right)
             .attr('height', height + margin.top + margin.bottom);
             //.style('background', '#4FFFFF');
+                        
+        var group1 = chartContainer.append("g");
+        var group2 = chartContainer.append("g");
         
-        var chart = chartContainer.selectAll('rect')
+        var chart = group1.selectAll('rect')
             .data(dataset)
             .enter().append('rect')
-            .attr('fill', '#CC0000')
+                .attr('fill', '#CC0000')
+                .attr('x', margin.left + 55)
+                .attr('y', function(d,i) {
+                    return yScale(i) + margin.top - 10;
+                })
+                .attr('width', function(d) {
+    //                console.log( xScale());
+    //                console.log("Before this is read", d.data);
+                    return d.data * 5;
+                })
+                .attr('height', (yScale.rangeBand()/2))
+        .on('mouseover', function(d) {
+
+//            var yPosition = parseFloat(d3.select(this).attr("y")) + yScale.rangeBand() / 2;
+//            var xPosition = parseFloat(d3.select(this).attr("x")) / 2 + width / 2;
+//
+//            //Update the tooltip position and value
+//                var tooltip = d3.select("#tooltip")
+//                    .data(dataset)
+//                  .style("left", xPosition + "px")
+//                  .style("top", yPosition + "px")
+//                  .select("#value")
+//                  .text(function(d) {
+//                    return d.data;
+//                });
+//
+//            //Show the tooltip
+//            d3.select("#tooltip").classed("hidden", false);
+            d3.select(this)
+            .style('opacity', .5)
+            })
+        
+        
+        .on('mouseout', function(d) {
+
+//            d3.select("#tooltip").classed("hidden", true);
+
+            d3.select(this)
+                .style('opacity', 1)
+                .append("title")
+                .text(function(d) {
+                return d.data;
+            });
+        })
+
+        
+
+            
+        
+                        
+        var chart2 = group2.selectAll('rect')
+        .data(saveArray).enter()
+        .append('rect')
+            .attr('fill', '#000000')
             .attr('x', margin.left + 55)
             .attr('y', function(d,i) {
-                return yScale(i) + margin.top;
+                return yScale(i) + margin.top + 15 - 10;
             })
             .attr('width', function(d) {
-                console.log( xScale());
-                console.log("Before this is read", d.data);
-                return d.data * 5;
+    //                console.log( xScale());
+    //                console.log("Before this is read", d.data);
+                    return d.data * 5;
             })
-            .attr('height', yScale.rangeBand());
+            .attr('height', 13)
+        .on('mouseover', function(d) {
+            d3.select(this)
+            .style('opacity', .5)
+            })
+        
 
-        //Text inclusions
+        .on('mouseout', function(d) {
+                d3.select(this)
+                .style('opacity', 1)
+                .append("title")
+                .text(function(d) {
+                return d.data;
+            });
+        })
+                        
+        
+                        
+                        
+    //PIE CHART
+        
+                        
+            var cwidth = 100,
+            cheight = 100,
+            radius = 90,
+            clrs = d3.scale.ordinal() 
+                .range(['#CC0000', '#000000']);
+                        clrs2 = d3.scale.ordinal() 
+                .range(['#000000', '#CC0000']);
+        var pie = d3.layout.pie()
+        .value(function(d) {
+            return d.data;
+        })
+    
+        var arc = d3.svg.arc()
+        .outerRadius(radius)
+    
+        var chartContainer2 = d3.select(".crimeClass")
+        .append('svg')
+        .attr('width', 500)
+        .attr('height', 300)
+        
+        var group3 = chartContainer2.append('g');
+        var group4 = chartContainer2.append('g');
+        
+        var chart3 = group3.attr('transform', 'translate('+150+','+115+')')
+        .selectAll('path').data(pie(pieDataSet))
+        .enter().append('path')
+            .attr('fill', function(d, i) {
+                  return clrs2(i);
+                  })
+            .attr('d', arc)
+        //console.log(clickCount);
 
-          chartContainer.selectAll('text')
+
+        var pietext1 = group3.append("text")
+            .attr("text-anchor", "middle")
+            .text(function(d) {
+                return pieDataSet[0].data + "/100";
+            })
+            .attr('x', 0)
+            .attr('y', 10)
+            .attr("font-size", "50px")
+            .attr('fill', '#ffffff')
+        
+        var pietext3 = group3.append("text")
+            .attr("text-anchor", "middle")
+            .text(function(d) {
+                return result.name;
+            })
+            .attr('x', 0)
+            .attr('y', 50)
+            .attr("font-size", function() {
+                if(result.name.length > 20) {
+                    return 7;
+                } else {
+                    return 15;
+                }
+            })
+            .attr('fill', '#ffffff')
+
+
+        if (clickCount > 1) {
+        
+            var chart4 = group4.attr('transform', 'translate('+350+','+115+')')
+            .selectAll('path').data(pie(pieSaveArray))
+            .enter().append('path')
+                .attr('fill', function(d, i) {
+                      return clrs(i);
+                      })
+                .attr('d', arc)
+
+            var pietext2 = group4.append("text")
+            .attr("text-anchor", "middle")
+            .text(function(d) {
+                return pieSaveArray[0].data + "/100";
+            })
+            .attr('x', 0)
+            .attr('y', 10)
+            .attr("font-size", "50px")
+            .attr('fill', '#ffffff')
+            
+            var pietext4 = group4.append("text")
+            .attr("text-anchor", "middle")
+            .text(oldName)
+            .attr('x', 0)
+            .attr('y', 50)
+            .attr("font-size", function() {
+                if(result.name.length > 20) {
+                    return 7;
+                } else {
+                    return 15;
+                }
+            })
+            .attr('fill', '#ffffff')
+
+        }
+                        
+   
+                        
+                        
+
+    //Text inclusions
+
+          group1.selectAll('text')
             .data(dataset)
             .enter()
             .append('text')
@@ -178,7 +412,7 @@
             return margin.left - 50;
            })
            .attr("y", function(d, i) {
-                return yScale(i) + margin.top + 20;
+                return yScale(i) + margin.top + 20 - 10;
             });
         chartContainer.selectAll('text')
             .data(dataset)
@@ -191,57 +425,75 @@
             .attr("y", 50)
                         
                                 
-                        
-                        
+        saveArray = dataset;
+        pieSaveArray = pieDataSet;
+        oldName = result.name;   
+        
+    clickCount++;   
                                 
-					   });
+                    
+    });
                     //console.log(arr);
-					function changeText() {
-						document.getElementById("text1").innerHTML = clickedName;
-						document.getElementById("text2").innerHTML = clickedName;
-						document.getElementById("poverty").innerHTML = clickedPoverty + "%";
-					}
+    function changeText() {
+        document.getElementById("text1").innerHTML = clickedName;
+        document.getElementById("text2").innerHTML = clickedName;
+        document.getElementById("poverty").innerHTML = clickedPoverty + "%";
+    if (clickCount > 1) {
+        document.getElementById("text1b").innerHTML = "&amp&nbsp" + clickedName2;
+        document.getElementById("text2b").innerHTML = "&amp&nbsp" + clickedName2;
+        document.getElementById("poverty2").innerHTML = "&nbsp&nbsp&nbsp&nbsp" + clickedPoverty2 + "%";
+    }
+}
                     
                         
                     
 //Break
-					</script> 
-				
-		</div>
-		<a href="javascript:void(0);" onclick="toggle_visibility('data');" style="text-decoration:none;">
-			<div id="data" class="col-lg-6 col-md-3 col-xs-2 col-main2">
-				<div class="col-type col-data" style="display:block;">
-					<div class="data-hidden">
-						<h1 class="data-header-hidden"><b><div id = "text1">Midtown</div></b></h1>
-					</div>
-					<div class="data-complete">
-						<h1 class="data-header"><b><div id = "text2">Midtown</div></b></h1>
-						<div id = "transportationClass" style="height:310px;">
+                    </script> 
+                
+        </div>
+        <a href="javascript:void(0);" onclick="toggle_visibility('data');" style="text-decoration:none;">
+            <div id="data" class="col-lg-6 col-md-3 col-xs-2 col-main2">
+                <div class="col-type col-data" style="display:block;">
+                    <div class="data-hidden">
+                        <h1 class="data-header-hidden"><b><div id = "text1" style="float:left; color:#CC0000;"></div><div id = "text1b" style: "float:left;"></div></b></h1>
+                    </div>
+                    <div class="data-complete">
+                        <h1 class="data-header"><b><div id = "text2" style="color:#000000;"></div><div id = "text2b" style="color:#DD0000;" style: "float:left;"></div></b></h1>
+<!--
+<div id="tooltip" class="hidden">
+        <p id ="marta"><strong>Important Label Heading</strong></p>
+        <p><span id="value">100</span></p>
+</div>
+-->
+                        <div id = "transportationClass" style="height:270px;">
+                            
               <b class="data-content">
-								<p style="height:10px;">TRANSPORTATION</p>
-							</b>
-							<!-- Put transportation data here -->
-						</div>
-						<div class = "crimeClass" style="height: 340px">
-							<b class="data-content">
-								<p style="height:20px">CRIME</p>
-							</b>
-							<!-- Put crime data here -->
-						</div>
-						<div class = "povertyClass" style="height: 100px">
-							<b class="data-content">
-								<p style="height:20px">POVERTY</p>
-							</b>
-							<h1 class="data-header" style="padding-top:20px;">
-								<b><div id = "poverty" style="color: #DD0000; float:left; font-size:55px;">8.9%</div></b>
-								<p style="float:right; font-size:24px; color:#000000; padding-top: 6px; padding-left:15px;">OF POPULATION LIVES BELOW</br>THE POVERTY LEVEL ($23,283)</p>
-							</h1>							
-						</div>
-					</div>
-				</div>
-			</div>
-		</a>
-	</div>
+                                <p style="height:10px;">TRANSPORTATION</p>
+                            </b>
+                            <!-- Put transportation data here -->
+                        </div>
+
+                        <div class = "crimeClass" style="height: 260px">
+                            <b class="data-content">
+                                <p style="height:20px">CRIME</p>
+                            </b>
+                            <!-- Put crime data here -->
+                        </div>
+                        <div class = "povertyClass" style="height: 100px">
+                            <b class="data-content">
+                                <p style="height:20px">POVERTY</p>
+                            </b>
+                            <h1 class="data-header" style="padding-top:20px; text-align:center; position:relative;">
+                                <b><div id = "poverty" style="color: #000000; font-size:55px; position:relative;  display:inline-block;"></div>
+                                <div id = "poverty2" style="color: #DD0000; font-size:55px; position:relative; display:inline-block;"></div></b>
+                                <p style="float:left; font-size:18.5px; color:#000000; padding-top: 10px;">OF POPULATION LIVES BELOW THE POVERTY LEVEL ($23,283)</p>
+                            </h1>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
 </div>
 </body>
 </html>

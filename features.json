@@ -16,6 +16,8 @@ var data = [{
             "%BELOWPOVERTY":"19.6",
             "title":"West Lake",
             "description":"80 Anderson Avenue SW\rAtlanta, GA 30314",
+             "crime": "408",
+             "crimeIndex": "2",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -48,6 +50,8 @@ var data = [{
             "%BELOWPOVERTY":"49.1",
             "title":"Garnett",
             "description":"225 Peachtree Street SW\rAtlanta, GA 30303",
+             "crime": "104",
+             "crimeIndex": "53",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -80,6 +84,8 @@ var data = [{
             "%BELOWPOVERTY":"6.9",
             "title":"Lenox",
             "description":"955 East Paces Ferry Road NE\rAtlanta, GA 30326",
+             "crime": "345",
+             "crimeIndex": "10",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -112,6 +118,8 @@ var data = [{
             "%BELOWPOVERTY":"8.5",
             "title":"North Springs",
             "description":"7010 Peachtree Dunwoody Road, Sandy Springs, GA 30328",
+             "crime": "133",
+             "crimeIndex": "45",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -144,6 +152,8 @@ var data = [{
             "%BELOWPOVERTY":"22.9",
             "title":"Doraville",
             "description":"6000 New Peachtree Road, Doraville, GA 30340",
+             "crime": "286",
+             "crimeIndex": "4",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -176,6 +186,8 @@ var data = [{
             "%BELOWPOVERTY":"34.6",
             "title":"East Point",
             "description":"2848 East Main Street\rEast Point, GA 30344",
+             "crime": "160",
+             "crimeIndex": "5",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -208,6 +220,8 @@ var data = [{
             "%BELOWPOVERTY":"23.8",
             "title":"Kensington",
             "description":"3350 Kensington Road\rDecatur, GA 30032",
+             "crime": "95",
+             "crimeIndex": "9",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -240,6 +254,8 @@ var data = [{
             "%BELOWPOVERTY":"27.4",
             "title":"Five Points",
             "description":"20 Broad St SW\rAtlanta, GA 30303",
+             "crime": "441",
+             "crimeIndex": "6",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -272,6 +288,8 @@ var data = [{
             "%BELOWPOVERTY":"7.1",
             "title":"Dunwoody",
             "description":"1111 Hammond Drive, Dunwoody, GA 30328",
+             "crime": "297",
+             "crimeIndex": "11",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -304,6 +322,8 @@ var data = [{
             "%BELOWPOVERTY":"36.1",
             "title":"Civic Center",
             "description":"435 West Peachtree Street NW\rAtlanta, GA 30308",
+             "crime": "667",
+             "crimeIndex": "17",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -336,6 +356,8 @@ var data = [{
             "%BELOWPOVERTY":"29.2",
             "title":"Oakland City",
             "description":"1400 Lee Street SW\rAtlanta, GA 30310",
+             "crime": "524",
+             "crimeIndex": "0",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -368,6 +390,8 @@ var data = [{
             "%BELOWPOVERTY":"12.2",
             "title":"Indian Creek",
             "description":"3901 Durham Park Road\rStone Mountain, GA 30083",
+             "crime": "57",
+             "crimeIndex": "41",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -400,6 +424,8 @@ var data = [{
             "%BELOWPOVERTY":"8.8",
             "title":"Lindbergh Center",
             "description":"2424 Piedmont Road\rLindbergh/Morosgo neighborhood\rAtlanta, GA 30324",
+             "crime": "613",
+             "crimeIndex": "8",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -432,6 +458,8 @@ var data = [{
             "%BELOWPOVERTY":"32.9",
             "title":"Vine City",
             "description":"502 Rhodes Street NW\rAtlanta, GA 30314",
+             "crime": "147",
+             "crimeIndex": "15",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -464,6 +492,8 @@ var data = [{
             "%BELOWPOVERTY":"27.4",
             "title":"Peachtree Center",
             "description":"216 Peachtree Street NE\rAtlanta, GA 30303",
+             "crime": "441",
+             "crimeIndex": "6",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -496,6 +526,8 @@ var data = [{
             "%BELOWPOVERTY":"9.2",
             "title":"Brookhaven/Oglethorpe",
             "description":"4047 Peachtree Road NE\rBrookhaven,GA 30319",
+             "crime": "345",
+             "crimeIndex": "10",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -528,6 +560,8 @@ var data = [{
             "%BELOWPOVERTY":"6.1",
             "title":"Medical Center",
             "description":"5711 Peachtree-Dunwoody Road\rSandy Springs, GA 30342",
+             "crime": "51",
+             "crimeIndex": "50",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -560,6 +594,8 @@ var data = [{
             "%BELOWPOVERTY":"27.4",
             "title":"Georgia State",
             "description":"170 Piedmont Avenue SE\rAtlanta, GA 30303",
+             "crime": "441",
+             "crimeIndex": "6",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -592,6 +628,8 @@ var data = [{
             "%BELOWPOVERTY":"40.7",
             "title":"Ashby",
             "description":"65 Joseph E. Lowery Boulevard NW\rAtlanta, GA 30314",
+             "crime": "919",
+             "crimeIndex": "1",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -624,6 +662,8 @@ var data = [{
             "%BELOWPOVERTY":"25.2",
             "title":"Bankhead",
             "description":"1335 Donald Lee Hollowell Parkway NW\rAtlanta, GA 30311",
+             "crime": "356",
+             "crimeIndex": "1",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -656,6 +696,8 @@ var data = [{
             "%BELOWPOVERTY":"59.7",
             "title":"Decatur",
             "description":"400 Church Street\rDecatur, GA 30030",
+             "crime": "27",
+             "crimeIndex": "21",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -688,6 +730,8 @@ var data = [{
             "%BELOWPOVERTY":"26",
             "title":"Hamilton E. Holmes",
             "description":"70 Hamilton E. Holmes Drive NW\rAtlanta, GA 30311",
+             "crime": "351",
+             "crimeIndex": "1",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -720,6 +764,8 @@ var data = [{
             "%BELOWPOVERTY":"20.8",
             "title":"Inman Park/Reynoldstown",
             "description":"1055 DeKalb Avenue NE\rAtlanta, GA 30307",
+             "crime": "308",
+             "crimeIndex": "22",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -752,6 +798,8 @@ var data = [{
             "%BELOWPOVERTY":"35.9",
             "title":"West End",
             "description":"680 Lee Street SW\rAtlanta, GA 30310",
+             "crime": "788",
+             "crimeIndex": "0",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -784,6 +832,8 @@ var data = [{
             "%BELOWPOVERTY":"6.2",
             "title":"Arts Center",
             "description":"1255 West Peachtree Street\rAtlanta, GA 30309",
+             "crime": "108",
+             "crimeIndex": "33",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -816,6 +866,8 @@ var data = [{
             "%BELOWPOVERTY":"2.8",
             "title":"Buckhead",
             "description":"3360 Peachtree Road NE\rAtlanta, GA 30326",
+             "crime": "86",
+             "crimeIndex": "44",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -848,6 +900,8 @@ var data = [{
             "%BELOWPOVERTY":"8.9",
             "title":"Midtown",
             "description":"41 Tenth Street NE\rAtlanta, GA 30309",
+            "crime": "1153",
+             "crimeIndex": "19",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -880,6 +934,8 @@ var data = [{
             "%BELOWPOVERTY":"17",
             "title":"East Lake",
             "description":"2260 College Avenue\rAtlanta, GA 30307",
+             "crime": "269",
+             "crimeIndex": "16",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -912,6 +968,8 @@ var data = [{
             "%BELOWPOVERTY":"13.3",
             "title":"Sandy Springs",
             "description":"1101 Mount Vernon Highway, Sandy Springs, GA 30338",
+             "crime": "113",
+             "crimeIndex": "45",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -944,6 +1002,8 @@ var data = [{
             "%BELOWPOVERTY":"28.4",
             "title":"Lakewood/ Ft. McPherson",
             "description":"2020 Lee Street SW\rAtlanta, GA 30310",
+             "crime": "336",
+             "crimeIndex": "1",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -976,6 +1036,8 @@ var data = [{
             "%BELOWPOVERTY":"25.4",
             "title":"Airport",
             "description":"Hartsfield-Jackson Atlanta International Airport\rSouth Airport Terminal\rAtlanta, GA 30320",
+            "crime": "261",
+             "crimeIndex": "5",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1008,6 +1070,8 @@ var data = [{
             "%BELOWPOVERTY":"38.8",
             "title":"Chamblee",
             "description":"5200 New Peachtree Road\rChamblee, GA 30341",
+             "crime": "113",
+             "crimeIndex": "27",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1040,6 +1104,8 @@ var data = [{
             "%BELOWPOVERTY":"49.1",
             "title":"Dome/GWCC/Philips Arena/CNN Center",
             "description":"100 Techwood Drive NW\rAtlanta, GA 30303",
+             "crime": "104",
+             "crimeIndex": "53",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1072,6 +1138,8 @@ var data = [{
             "%BELOWPOVERTY":"17.5",
             "title":"College Park",
             "description":"3800 Main Street\rCollege Park, GA 30337",
+            "crime": "160",
+            "crimeIndex": "5",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1104,6 +1172,8 @@ var data = [{
             "%BELOWPOVERTY":"15.7",
             "title":"Avondale",
             "description":"915 East Ponce de Leon Avenue\rDecatur, GA 30030",
+             "crime": "373",
+             "crimeIndex": "33",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1136,6 +1206,8 @@ var data = [{
             "%BELOWPOVERTY":"49.9",
             "title":"Edgewood/Candler Park",
             "description":"1475 DeKalb Avenue NE\rAtlanta, GA 30307",
+             "crime": "155",
+             "crimeIndex": "52",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1168,6 +1240,8 @@ var data = [{
             "%BELOWPOVERTY":"63.2",
             "title":"King Memorial",
             "description":"377 Decatur Street NE\rAtlanta, GA 30312",
+             "crime": "441",
+             "crimeIndex": "6",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
@@ -1200,6 +1274,8 @@ var data = [{
             "%BELOWPOVERTY":"41.7",
             "title":"North Avenue",
             "description":"713 West Peachtree Street NW\rAtlanta, GA 30308",
+             "crime": "1153",
+             "crimeIndex": "19",
             "icon": {
             	"iconUrl": "dot.png",
            		"iconSize": [15, 15],
